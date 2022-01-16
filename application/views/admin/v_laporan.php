@@ -6,8 +6,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Produk By Mfikri.com">
-    <meta name="author" content="M Fikri Setiadi">
+    <meta name="description" content="Helcious PoS">
+    <meta name="author" content="Helcious">
 
     <title>Welcome To Point of Sale Apps</title>
 
@@ -270,7 +270,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p style="text-align:center;">Copyright &copy; <?php echo '2017';?> by M Fikri Setiadi</p>
+                    <p style="text-align:center;">Copyright &copy; <?php echo '2017';?> by Helcious</p>
                 </div>
             </div>
             <!-- /.row -->
