@@ -44,7 +44,7 @@
         <!-- Page Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class=" text-center" style="color:white;">Mulia Baja
+                <h1 class=" text-center" style="color:white;">Helcious
                 
                 </h1>
             </div>
@@ -205,7 +205,7 @@
 
         <footer class="sticky-footer bg-white">
         
-            <span style="color: white">Copyright &copy; Mulia Baja 2021</span>
+            <span style="color: white">Copyright &copy; Helcious 2021</span>
           
       </footer>
 	
