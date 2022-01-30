@@ -1,4 +1,4 @@
-FROM dockerhub.dqakses.id/php:7.4-fpm-healtcheck
+FROM php7.4-nginx
 
 # Install composer from the official image
 COPY --from=composer /usr/bin/composer /usr/bin/composer
