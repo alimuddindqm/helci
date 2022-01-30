@@ -21,7 +21,7 @@
 				<div class="login-wrapper">
 			        <div class="box">
 			            <div class="content-wrap">
-			                <img width="310px" src="<?php echo base_url().'assets/img/muliabaja.png'?>"/>
+			                <img width="310px" src="<?php echo base_url().'assets/img/helcious.jpg'?>"/>
 			                <p><?php echo $this->session->flashdata('msg');?></p>
 	                        <hr/>
 	                        <form action="<?php echo base_url().'administrator/cekuser'?>" method="post">
@@ -36,9 +36,7 @@
 			        </div>
 
 			        <div class="already">
-			            <p>Username: admin<br/> Password: admin</p>
-			            <br>
-			            <span>Copyright &copy; Mulia Baja 2021</span>
+			            <span>Copyright &copy; Helcious 2022</span>
 
 
 			            

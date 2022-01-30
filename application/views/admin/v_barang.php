@@ -145,32 +145,10 @@
                         <label class="control-label col-xs-3" >Satuan</label>
                         <div class="col-xs-9">
                              <select name="satuan" class="selectpicker show-tick form-control" data-live-search="true" title="Pilih Satuan" data-width="80%" placeholder="Pilih Satuan" required>
-                                <option>Unit</option>
-                                <option>Kotak</option>
-                                <option>Botol</option>
-                                <option>Butir</option>
-                                <option>Buah</option>
-                                <option>Biji</option>
-                                <option>Sachet</option>
-                                <option>Bks</option>
-                                <option>Roll</option>
-                                <option>PCS</option>
-                                <option>Box</option>
-                                <option>Meter</option>
-                                <option>Centimeter</option>
-                                <option>Liter</option>
-                                <option>CC</option>
-                                <option>Mililiter</option>
-                                <option>Lusin</option>
-                                <option>Gross</option>
-                                <option>Kodi</option>
-                                <option>Rim</option>
-                                <option>Dozen</option>
-                                <option>Kaleng</option>
-                                <option>Lembar</option>
-                                <option>Helai</option>
-                                <option>Gram</option>
-                                <option>Kilogram</option>
+                                <option>Cup reguler</option>
+                                <option>Cup jumbo </option>
+                                <option>Botol biasa</option>
+                                <option>Botol kale</option>
                              </select>
                         </div>
                     </div>
@@ -178,35 +156,35 @@
                     <div class="form-group">
                         <label class="control-label col-xs-3" >Harga Pokok</label>
                         <div class="col-xs-9">
-                            <input name="harpok" class="harpok form-control" type="text" placeholder="Harga Pokok..." style="width:335px;">
+                            <input name="harpok" class="harpok form-control" type="text" placeholder="Harga Pokok..." style="width:335px;" required>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="control-label col-xs-3" >Harga (Eceran)</label>
                         <div class="col-xs-9">
-                            <input name="harjul" class="harjul form-control" type="text" placeholder="Harga Jual Eceran..." style="width:335px;">
+                            <input name="harjul" class="harjul form-control" type="text" placeholder="Harga Jual Eceran..." style="width:335px;" required>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="control-label col-xs-3" >Harga (Grosir)</label>
                         <div class="col-xs-9">
-                            <input name="harjul_grosir" class="harjul form-control" type="text" placeholder="Harga Jual Grosir..." style="width:335px;">
+                            <input name="harjul_grosir" class="harjul form-control" type="text" placeholder="Harga Jual Grosir..." style="width:335px;" required>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="control-label col-xs-3" >Stok</label>
                         <div class="col-xs-9">
-                            <input name="stok" class="form-control" type="number" placeholder="Stok..." style="width:335px;">
+                            <input name="stok" class="form-control" type="number" placeholder="Stok..." style="width:335px;" required>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="control-label col-xs-3" >Minimal Stok</label>
                         <div class="col-xs-9">
-                            <input name="min_stok" class="form-control" type="number" placeholder="Minimal Stok..." style="width:335px;">
+                            <input name="min_stok" class="form-control" type="number" placeholder="Minimal Stok..." style="width:335px;" required>
                         </div>
                     </div>
                            

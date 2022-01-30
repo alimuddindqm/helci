@@ -39,7 +39,7 @@
             <center><?php echo $this->session->flashdata('msg');?></center>
                 <h1 class="page-header">Transaksi
                     <small>Penjualan (Eceran)</small>
-                    <a href="#" data-toggle="modal" data-target="#largeModal" class="pull-right"><small>Cari Produk!</small></a>
+                    <a href="#" data-toggle="modal" data-target="#largeModal" class="pull-right btn btn-sm btn-success"><small>Cari Produk!</small></a>
                 </h1> 
             </div>
         </div>
@@ -62,11 +62,9 @@
             <table class="table table-bordered table-condensed" style="font-size:11px;margin-top:10px;">
                 <thead>
                     <tr>
-                        <th>Kode Barang</th>
-                        <th>Nama Barang</th>
+                        <th>Produk</th>
                         <th style="text-align:center;">Satuan</th>
                         <th style="text-align:center;">Harga(Rp)</th>
-                        <th style="text-align:center;">Diskon(Rp)</th>
                         <th style="text-align:center;">Qty</th>
                         <th style="text-align:center;">Sub Total</th>
                         <th style="width:100px;text-align:center;">Aksi</th>
@@ -77,11 +75,9 @@
                     <?php foreach ($this->cart->contents() as $items): ?>
                     <?php echo form_hidden($i.'[rowid]', $items['rowid']); ?>
                     <tr>
-                         <td><?=$items['id'];?></td>
                          <td><?=$items['name'];?></td>
                          <td style="text-align:center;"><?=$items['satuan'];?></td>
                          <td style="text-align:right;"><?php echo number_format($items['amount']);?></td>
-                         <td style="text-align:right;"><?php echo number_format($items['disc']);?></td>
                          <td style="text-align:center;"><?php echo number_format($items['qty']);?></td>
                          <td style="text-align:right;"><?php echo number_format($items['subtotal']);?></td>
                         
@@ -122,18 +118,15 @@
             <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h3 class="modal-title" id="myModalLabel">Data Barang</h3>
+                <h3 class="modal-title" id="myModalLabel">Produk</h3>
             </div>
                 <div class="modal-body" style="overflow:scroll;height:500px;">
 
                   <table class="table table-bordered table-condensed" style="font-size:11px;" id="mydata">
                     <thead>
                         <tr>
-                            <th style="text-align:center;width:40px;">No</th>
-                            <th style="width:120px;">Kode Barang</th>
-                            <th style="width:240px;">Nama Barang</th>
-                            <th>Satuan</th>
-                            <th style="width:100px;">Harga (Eceran)</th>
+                            <th style="width:240px;">Produk</th>
+                            <th style="width:100px;">Harga</th>
                             <th>Stok</th>
                             <th style="width:100px;text-align:center;">Aksi</th>
                         </tr>
@@ -155,10 +148,8 @@
                             $kat_nama=$a['kategori_nama'];
                     ?>
                         <tr>
-                            <td style="text-align:center;"><?php echo $no;?></td>
-                            <td><?php echo $id;?></td>
+                            
                             <td><?php echo $nm;?></td>
-                            <td style="text-align:center;"><?php echo $satuan;?></td>
                             <td style="text-align:right;"><?php echo 'Rp '.number_format($harjul);?></td>
                             <td style="text-align:center;"><?php echo $stok;?></td>
                             <td style="text-align:center;">
